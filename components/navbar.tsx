@@ -1,8 +1,7 @@
 "use client"
 
 import Image from "next/image"
-import Link from "next/link"
-import React, { useState} from 'react'
+import React from 'react'
 import { useTheme } from "next-themes"
 import { Label } from "@/components/ui/label"
 import { Switch } from "@/components/ui/switch"
@@ -22,7 +21,7 @@ export default function Nav(){
                         height={100}
                         unoptimized
                         />
-                    <h1 className="text-6xl font-Poppins font-ligth dark:text-white">Cortex</h1>
+                    <h1 className="text-7xl font-Poppins font-bold dark:text-white">Cortex</h1>
                     <div className="flex-auto flex-row-reverse ">
                     </div>
                 </div>

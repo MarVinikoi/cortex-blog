@@ -1,6 +1,7 @@
 import type { Config } from "tailwindcss";
 
 
+
 export default {
   content: [
     "./pages/**/*.{js,ts,jsx,tsx,mdx}",
@@ -35,8 +36,8 @@ export default {
   			background: 'hsl(var(--background))',
   			foreground: 'hsl(var(--foreground))',
   			themeOrange: {
-  				light: '#ff8200',
-  				DEFAULT: '#EB5B00',
+  				light: '#ff6200',
+  				DEFAULT: '#eb4e00',
   				dark: '#c84f03'
   			},
         themePurple: {

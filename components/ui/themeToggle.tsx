@@ -9,7 +9,7 @@ interface Props {
 }
 
 const ThemeToggle = (props : Props) => {
-  const [darkMode, setDarkMode] = useState(true);
+  const [_, setDarkMode] = useState(true);
 
   useEffect(() => {
     const theme = localStorage.getItem("theme")
@@ -28,13 +28,4 @@ const ThemeToggle = (props : Props) => {
 }
 
 export default ThemeToggle
-
-// export default function ThemeToggle(){
-//     return (
-//         <div className="flex items-center space-x-2">
-//           <Switch id={props.id} />
-//           <Label htmlFor={props.id}>{props.caption}</Label>
-//         </div>
-//       )
-// }
 
